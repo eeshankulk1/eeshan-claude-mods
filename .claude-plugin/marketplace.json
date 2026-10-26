@@ -1,0 +1,19 @@
+{
+  "name": "eeshan-claude-mods",
+  "owner": { "name": "eeshankulk1" },
+  "metadata": {
+    "description": "Claude Code mods: a live pull request line above the prompt, and code blocks you can copy with one click."
+  },
+  "plugins": [
+    {
+      "name": "pr-band",
+      "source": "./mods/pr-band",
+      "description": "A line above the prompt for the pull request this session is shipping: checks, merge state, and after the merge what it deployed."
+    },
+    {
+      "name": "clickable",
+      "source": "./mods/clickable",
+      "description": "Click to copy a code block, and click to open a path, in the classic terminal view."
+    }
+  ]
+}
